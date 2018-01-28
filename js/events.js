@@ -1,6 +1,8 @@
 //define functions here
 function getIt(){
-  $('p').attachEventHandler
+  $('p').addEventListener('click', function(e){
+    alert('Hey!');
+  });
 }
 
 $(document).ready(function(){
