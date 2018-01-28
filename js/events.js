@@ -7,7 +7,8 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load', function(){
-    $('img').className += " tasty";
+    var image = $('img');
+    image.className += " tasty";
   });
 }
 
